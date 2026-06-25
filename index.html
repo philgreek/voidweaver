@@ -560,7 +560,20 @@ const AudioEngine = {
     },
 
     buildBuiltinPlaylist() {
-        this.playlist = [];
+        this.playlist = [
+            { name: 'Track 1',  url: 'mp3/track1.mp3'  },
+            { name: 'Track 2',  url: 'mp3/track2.mp3'  },
+            { name: 'Track 3',  url: 'mp3/track3.mp3'  },
+            { name: 'Track 4',  url: 'mp3/track4.mp3'  },
+            { name: 'Track 5',  url: 'mp3/track5.mp3'  },
+            { name: 'Track 6',  url: 'mp3/track6.mp3'  },
+            { name: 'Track 7',  url: 'mp3/track7.mp3'  },
+            { name: 'Track 8',  url: 'mp3/track8.mp3'  },
+            { name: 'Track 9',  url: 'mp3/track9.mp3'  },
+            { name: 'Track 10', url: 'mp3/track10.mp3' },
+            { name: 'Track 11', url: 'mp3/track11.mp3' },
+            { name: 'Track 12', url: 'mp3/track12.mp3' },
+        ];
         this.refreshPlaylistUI();
     },
 
